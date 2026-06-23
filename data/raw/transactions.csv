@@ -1,0 +1,4 @@
+transaction_id,scheme_code,transaction_type,amount,date
+1,125497,BUY,5000,2026-06-20
+2,119551,BUY,3000,2026-06-21
+3,120503,SELL,2000,2026-06-21
