@@ -524,3 +524,91 @@ VARAN SINGH SODHI
 
 !\[Transactions](screenshots/transaction\_type.png)
 
+
+
+
+
+\# Mutual Fund Analysis
+
+
+
+\## Objective
+
+
+
+Analyze 40 mutual funds using NAV history and performance metrics.
+
+
+
+\## Analysis
+
+
+
+\- Data Cleaning
+
+\- Exploratory Data Analysis
+
+\- NAV Trend Analysis
+
+\- Daily Returns
+
+\- CAGR Analysis
+
+\- Sharpe Ratio
+
+\- Sortino Ratio
+
+\- Alpha Beta Regression
+
+\- Maximum Drawdown
+
+\- Fund Ranking Scorecard
+
+\- Benchmark Comparison
+
+
+
+\## Metrics
+
+
+
+\- CAGR
+
+\- Risk Adjusted Returns
+
+\- Market Sensitivity
+
+\- Drawdown Risk
+
+
+
+\## Tools
+
+
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+SciPy
+
+
+
+\## Outputs
+
+
+
+\- fund\_scorecard.csv
+
+\- alpha\_beta.csv
+
+\- benchmark\_comparison.png
+
+
+
+
+
