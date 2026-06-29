@@ -612,3 +612,261 @@ SciPy
 
 
 
+\# Mutual Fund Analytics Project
+
+
+
+\## Overview
+
+
+
+A complete Mutual Fund Analytics project that analyzes fund performance, risk metrics, and portfolio insights using Python and Power BI.
+
+
+
+The project covers:
+
+\- Data cleaning
+
+\- Exploratory Data Analysis
+
+\- Performance analytics
+
+\- Risk analysis
+
+\- Interactive dashboard creation
+
+
+
+\---
+
+
+
+\## Project Workflow
+
+
+
+\### 1. Data Preparation
+
+
+
+Cleaned and prepared mutual fund datasets including:
+
+
+
+\- Fund master data
+
+\- NAV history
+
+\- Performance data
+
+\- Benchmark data
+
+
+
+\---
+
+
+
+\## 2. Exploratory Data Analysis
+
+
+
+Performed:
+
+
+
+\- Fund category analysis
+
+\- Expense ratio analysis
+
+\- NAV trend analysis
+
+\- Data quality checks
+
+
+
+Tools:
+
+\- Python
+
+\- Pandas
+
+\- Matplotlib
+
+\- Seaborn
+
+
+
+\---
+
+
+
+\## 3. Performance Analytics
+
+
+
+Calculated:
+
+
+
+\### Daily Returns
+
+
+
+Daily return:
+
+
+
+NAV(t) / NAV(t-1) - 1
+
+
+
+
+
+\### CAGR
+
+
+
+Calculated:
+
+
+
+\- 1 Year CAGR
+
+\- 3 Year CAGR
+
+\- 5 Year CAGR
+
+
+
+
+
+\### Risk Metrics
+
+
+
+Calculated:
+
+
+
+\- Alpha
+
+\- Beta
+
+\- Sharpe Ratio
+
+
+
+
+
+\---
+
+
+
+\## 4. Power BI Dashboard
+
+
+
+Created an interactive dashboard showing:
+
+
+
+\- Average CAGR cards
+
+\- Fund performance ranking
+
+\- Risk vs Return analysis
+
+\- NAV growth trends
+
+\- Expense ratio comparison
+
+\- Fund filtering
+
+
+
+\---
+
+
+
+\## Dashboard Preview
+
+
+
+!\[Dashboard](screenshots/dashboard.png)
+
+
+
+
+
+\---
+
+
+
+\## Tech Stack
+
+
+
+\- Python
+
+\- Pandas
+
+\- NumPy
+
+\- Matplotlib
+
+\- Power BI
+
+\- Git \& GitHub
+
+
+
+
+
+\---
+
+
+
+\## Files
+
+
+
+```
+
+data/
+
+notebooks/
+
+powerbi/
+
+screenshots/
+
+README.md
+
+```
+
+
+
+\---
+
+
+
+\## Key Insights
+
+
+
+The dashboard helps compare funds based on:
+
+
+
+\- Long-term returns
+
+\- Risk-adjusted performance
+
+\- Cost efficiency
+
+\- NAV growth
+
+
+
