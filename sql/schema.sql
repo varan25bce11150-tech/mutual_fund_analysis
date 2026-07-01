@@ -58,3 +58,22 @@ fund_id INTEGER,
 aum REAL
 
 );
+CREATE TABLE IF NOT EXISTS fact_metrics(
+
+scheme_code BIGINT,
+
+cagr_1yr FLOAT,
+
+cagr_3yr FLOAT,
+
+cagr_5yr FLOAT,
+
+sharpe_ratio FLOAT,
+
+alpha FLOAT,
+
+beta FLOAT,
+
+volatility FLOAT
+
+);

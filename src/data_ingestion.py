@@ -1,38 +1,42 @@
 import pandas as pd
-import os
+from pathlib import Path
 
 
-files = [
-    "fund_master.csv",
-    "nav_history.csv",
-    "transactions.csv"
-]
+def ingest_data():
+
+    BASE = Path(__file__).resolve().parent.parent
+
+    raw_path = BASE / "data" / "raw"
 
 
-path = "data/raw/"
+    files = [
+        "fund_master.csv",
+        "nav_history.csv",
+        "transactions.csv"
+    ]
 
 
-for file in files:
-
-    location = os.path.join(path,file)
-
-    df = pd.read_csv(location)
+    data = {}
 
 
-    print("\n===================")
-    print(file)
+    for file in files:
 
-    print("Shape:")
-    print(df.shape)
+        location = raw_path / file
 
 
-    print("\nData Types:")
-    print(df.dtypes)
+        try:
+
+            df = pd.read_csv(location)
+
+            data[file] = df
+
+            print(file, "loaded successfully")
 
 
-    print("\nFirst 5 rows:")
-    print(df.head())
+        except Exception as e:
+
+            print(file, "failed:", e)
 
 
-    print("\nMissing Values:")
-    print(df.isnull().sum())
+
+    return data
